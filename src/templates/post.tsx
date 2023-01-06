@@ -18,7 +18,6 @@ const PostPage = (
     }
   >
 ) => {
-  console.log(args);
   const { data } = useTina({
     data: args.pageContext.tinaData.data,
     query: args.pageContext.tinaData.query,
