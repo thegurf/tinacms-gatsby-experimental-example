@@ -2,7 +2,7 @@ import path from "path";
 import express from "express";
 
 import client from "./.tina/__generated__/client";
-import type { CreatePageArgs } from "gatsby";
+import type { CreatePageArgs, CreateDevServerArgs } from "gatsby";
 
 exports.createPages = async ({ actions }: CreatePageArgs) => {
   console.log("createPages", actions);
@@ -34,6 +34,6 @@ exports.createPages = async ({ actions }: CreatePageArgs) => {
 };
 
 // Need access to the static folder in development
-exports.onCreateDevServer = ({ app }) => {
+exports.onCreateDevServer = ({ app }: CreateDevServerArgs) => {
   app.use(express.static("static"));
 };
