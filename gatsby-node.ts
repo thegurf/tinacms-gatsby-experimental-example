@@ -13,7 +13,7 @@ exports.createPages = async ({ actions }: CreatePageArgs) => {
   createPage({
     path: `/`,
     component: path.resolve("./src/templates/home.tsx"),
-    context: { pages: pages?.data.postConnection },
+    context: { pages },
   });
 
   // Create a page for each Post.

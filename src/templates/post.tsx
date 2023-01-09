@@ -1,5 +1,5 @@
 import React from "react";
-import type { PageProps } from "gatsby";
+import { Link, PageProps } from "gatsby";
 import { useTina } from "tinacms/dist/react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import type { PostQuery } from "../../.tina/__generated__/types";
@@ -25,6 +25,9 @@ const PostPage = (
   });
   return (
     <div>
+      <div>
+        <Link to="/">&larr; Home</Link>
+      </div>
       <h1>{data.post.title}</h1>
       <TinaMarkdown content={data.post.body} />
     </div>
