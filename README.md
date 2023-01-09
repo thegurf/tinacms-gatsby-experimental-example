@@ -2,7 +2,7 @@
 
 > Warning: This is experimental. We are still working on finding the best way to integrate TinCMS with Gatsby. Any ideas or contributions are welcome on the [TinaCMS github repo](https://github.com/tinacms/tinacms).
 >
-> Check out at [this discussion]() for more info
+> Check out at [this discussion](https://github.com/tinacms/tinacms/discussions/3503) for more info
 
 ## Setup
 
