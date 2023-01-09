@@ -1,4 +1,4 @@
-# Gatsby + TinCMS
+# Gatsby + TinaCMS
 
 > Warning: This is experimental. We are still working on finding the best way to integrate TinCMS with Gatsby. Any ideas or contributions are welcome on the [TinaCMS github repo](https://github.com/tinacms/tinacms).
 >
